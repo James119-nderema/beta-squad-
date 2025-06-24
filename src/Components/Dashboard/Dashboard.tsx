@@ -174,6 +174,7 @@ const DataAnalytics: React.FC = () => {
                   className={`max-h-full max-w-full object-contain transition-opacity duration-300 ${chartLoading.departments ? 'opacity-0' : 'opacity-100'}`}
                   onLoad={() => handleImageLoad('departments')}
                   onError={(e) => handleImageError(e, 'departments')}
+                  unoptimized={true}
                 />
               </div>
             </div>
@@ -195,6 +196,7 @@ const DataAnalytics: React.FC = () => {
                   className={`max-h-full max-w-full object-contain transition-opacity duration-300 ${chartLoading.roles ? 'opacity-0' : 'opacity-100'}`}
                   onLoad={() => handleImageLoad('roles')}
                   onError={(e) => handleImageError(e, 'roles')}
+                  unoptimized={true}
                 />
               </div>
             </div>
@@ -216,6 +218,7 @@ const DataAnalytics: React.FC = () => {
                   className={`max-h-full max-w-full object-contain transition-opacity duration-300 ${chartLoading.attendance ? 'opacity-0' : 'opacity-100'}`}
                   onLoad={() => handleImageLoad('attendance')}
                   onError={(e) => handleImageError(e, 'attendance')}
+                  unoptimized={true}
                 />
               </div>
             </div>
@@ -237,6 +240,7 @@ const DataAnalytics: React.FC = () => {
                   className={`max-h-full max-w-full object-contain transition-opacity duration-300 ${chartLoading.signatures ? 'opacity-0' : 'opacity-100'}`}
                   onLoad={() => handleImageLoad('signatures')}
                   onError={(e) => handleImageError(e, 'signatures')}
+                  unoptimized={true}
                 />
               </div>
             </div>
